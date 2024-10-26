@@ -1,19 +1,18 @@
 # 📈 Sizr
 
 ```text
-      _            
- ___ (_) ____ _ __ 
+      _
+ ___ (_) ____ _ __
 / __|| ||_  /| '__|
-\__ \| | / / | |   
-|___/|_|/___||_|  
+\__ \| | / / | |
+|___/|_|/___||_|
 ```
 
 📈 Sizr: A fast, Rust-based tool to analyze file system usage with colorful output, file aggregation, exclusions, and directory comparisons.
 
 ## Demo
 
-![Example](resources/screenshot.png)
-
+![Example](media/screenshot.png)
 
 ## ✨ Features
 
