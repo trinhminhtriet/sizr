@@ -1,14 +1,16 @@
 [package]
 name = "sizr"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Triet Trinh <contact@trinhminhtriet.com>"]
 description = "A fast, Rust-based tool to analyze file system usage with colorful output, file aggregation, exclusions, and directory comparisons."
+homepage = "https://trinhminhtriet.com"
 repository = "https://github.com/trinhminhtriet/sizr"
 categories = ["command-line-utilities"]
-license = "GPL-3.0"
-homepage = "https://trinhminhtriet.com"
+keywords = ["du", "cli", "disk", "disk-usage"]
+license = "MIT"
 exclude = ["test/*"]
 edition = "2018"
+readme = "README.md"
 
 [dependencies]
 getopts = "0.2.21"
@@ -17,3 +19,4 @@ signal-hook = "0.1.10"
 terminal_size = "0.1.8"
 unicode-width = "0.1.1"
 unicode-segmentation = "1.2.0"
+arc-swap = "1.7.1"

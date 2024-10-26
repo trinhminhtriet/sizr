@@ -35,6 +35,7 @@ cd sizr
 
 cargo build --release
 cp ./target/release/sizr /usr/local/bin/
+sizr -d 2
 ```
 
 Running the below command will globally install the `sizr` binary.
