@@ -1,0 +1,19 @@
+[package]
+name = "sizr"
+version = "0.1.0"
+authors = ["Triet Trinh <contact@trinhminhtriet.com>"]
+description = "A fast, Rust-based tool to analyze file system usage with colorful output, file aggregation, exclusions, and directory comparisons."
+repository = "https://github.com/trinhminhtriet/sizr"
+categories = ["command-line-utilities"]
+license = "GPL-3.0"
+homepage = "https://trinhminhtriet.com"
+exclude = ["test/*"]
+edition = "2018"
+
+[dependencies]
+getopts = "0.2.21"
+regex = "1.3.9"
+signal-hook = "0.1.10"
+terminal_size = "0.1.8"
+unicode-width = "0.1.1"
+unicode-segmentation = "1.2.0"
