@@ -1,6 +1,6 @@
 [package]
 name = "sizr"
-version = "0.1.4"
+version = "0.1.5"
 authors = ["Triet Trinh <contact@trinhminhtriet.com>"]
 description = "A fast, Rust-based tool to analyze file system usage with colorful output, file aggregation, exclusions, and directory comparisons."
 homepage = "https://trinhminhtriet.com"
