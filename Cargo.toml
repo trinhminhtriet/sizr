@@ -13,11 +13,17 @@ edition = "2018"
 readme = "README.md"
 
 [dependencies]
-getopts = "0.2.21"
+getopts = "0.2.23"
 regex = "1.3.9"
+<<<<<<< HEAD
 signal-hook = "0.1.10"
 terminal_size = "0.4.1"
 unicode-width = "0.2.1"
+=======
+signal-hook = "0.3.18"
+terminal_size = "0.4.2"
+unicode-width = "0.2.0"
+>>>>>>> master
 unicode-segmentation = "1.2.0"
 arc-swap = "1.7.1"
 
